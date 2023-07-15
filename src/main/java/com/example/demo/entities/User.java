@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="UsersHealthfirst")
+@Table(name="HealthfirstUsers")
 public class User
 {
     private static final long serialVersionUID = 1L;

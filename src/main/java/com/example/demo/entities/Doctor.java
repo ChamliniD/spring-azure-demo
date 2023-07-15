@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 //import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "DoctorHealthfirst")
+@Table(name = "HealthfirstDoctor")
 //@Data
 //@AllArgsConstructor
 //@NoArgsConstructor
