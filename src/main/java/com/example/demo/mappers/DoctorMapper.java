@@ -1,4 +1,3 @@
-/*
 package com.example.demo.mappers;
 
 import com.example.demo.dtos.DoctorDTO;
@@ -19,4 +18,3 @@ public interface DoctorMapper {
     List<Doctor> dtoToDomain(List<DoctorDTO> doctorDTOs);
 
 }
-*/

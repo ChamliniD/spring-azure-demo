@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 //import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "HealthfirstDoctor")
+@Table(name = "HealthfirstDoctorSample")
 //@Data
 //@AllArgsConstructor
 //@NoArgsConstructor
@@ -31,36 +31,36 @@ public class Doctor {
         this.name = name;
         this.specialization = specialization;
     }
-//
-//    public int getId() {
-//        return id;
-//    }
-//
-//    public void setId(int id) {
-//        this.id = id;
-//    }
-//
-//    public String getRegisteredNumber() {
-//        return registeredNumber;
-//    }
-//
-//    public void setRegisteredNumber(String registeredNumber) {
-//        this.registeredNumber = registeredNumber;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public String getSpecialization() {
-//        return specialization;
-//    }
-//
-//    public void setSpecialization(String specialization) {
-//        this.specialization = specialization;
-//    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getRegisteredNumber() {
+        return registeredNumber;
+    }
+
+    public void setRegisteredNumber(String registeredNumber) {
+        this.registeredNumber = registeredNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
 }

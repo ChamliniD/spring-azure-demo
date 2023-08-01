@@ -1,16 +1,40 @@
 package com.example.demo.dtos;
 
 public class DoctorDTO {
-    private String id;
+    private int id;
+    private String registeredNumber;
     private String name;
+    private String specialization;
 
-    public DoctorDTO() {
+    public int getId() {
+        return id;
     }
 
-    public DoctorDTO(String id, String name) {
+    public void setId(int id) {
         this.id = id;
+    }
+
+    public String getRegisteredNumber() {
+        return registeredNumber;
+    }
+
+    public void setRegisteredNumber(String registeredNumber) {
+        this.registeredNumber = registeredNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 
+    public String getSpecialization() {
+        return specialization;
+    }
 
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
 }
