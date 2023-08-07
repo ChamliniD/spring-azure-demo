@@ -43,6 +43,7 @@
             <th scope="col">Name</th>
             <th scope="col">Registered number</th>
             <th scope="col">Specialization</th>
+            <th scope="col">Email</th>
             <th scope="col">Actions</th>
         </tr>
         </thead>
@@ -52,8 +53,12 @@
             <td th:text="${doctor.name}"></td>
             <td th:text="${doctor.registeredNumber}"></td>
             <td th:text="${doctor.specialization}"></td>
+            <td th:text="${doctor.email}"></td>
             <td>
+                <a class="btn btn-outline-info" th:href="@{/doctor/showDoc/{id}(id=${doctor.id})}"
+                   data-bs-toggle="tooltip" data-bs-placement="bottom" title="View doctor details">View</a>
                 <a class="btn btn-outline-primary" th:href="@{/doctor/updateForm/{id}(id=${doctor.id})}">Update</a>
+                <a class="btn btn-outline-warning" th:href="@{/doctor/uploadPhotoView/{id}(id=${doctor.id})}">Upload Photo</a>
                 <a class="btn btn-outline-danger" th:href="@{/doctor/delete/{id}(id=${doctor.id})}">Delete</a>
             </td>
         </tr>

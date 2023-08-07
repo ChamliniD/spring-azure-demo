@@ -6,6 +6,10 @@ public class DoctorDTO {
     private String name;
     private String specialization;
 
+    private String email;
+
+    private String photoName;
+
     public int getId() {
         return id;
     }
@@ -36,5 +40,21 @@ public class DoctorDTO {
 
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhotoName() {
+        return photoName;
+    }
+
+    public void setPhotoName(String photoName) {
+        this.photoName = photoName;
     }
 }
